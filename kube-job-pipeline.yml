@@ -7,51 +7,51 @@
 
 - project:
     name: kube-eureka
-    repository: amitkshirsagar13
-    branch: master
-    jenkins-file: Jenkinsfile
+    # repository: amitkshirsagar13
+    # branch: master
+    # jenkins-file: Jenkinsfile
     views:
         - '{name}'
     jobs:
     - '{name}-gp'
 
-- project:
-    name: kube-server
-    repository: amitkshirsagar13
-    branch: master
-    jenkins-file: Jenkinsfile
-    views:
-        - '{name}'
-    jobs:
-    - '{name}-gp'
+# - project:
+#     name: kube-server
+#     repository: amitkshirsagar13
+#     branch: master
+#     jenkins-file: Jenkinsfile
+#     views:
+#         - '{name}'
+#     jobs:
+#     - '{name}-gp'
 
-- project:
-    name: kube-front
-    repository: amitkshirsagar13
-    branch: master
-    jenkins-file: Jenkinsfile
-    views:
-        - '{name}'
-    jobs:
-    - '{name}-gp'
+# - project:
+#     name: kube-front
+#     repository: amitkshirsagar13
+#     branch: master
+#     jenkins-file: Jenkinsfile
+#     views:
+#         - '{name}'
+#     jobs:
+#     - '{name}-gp'
 
-- project:
-    name: kube-hystrix
-    repository: amitkshirsagar13
-    branch: master
-    jenkins-file: Jenkinsfile
-    views:
-        - '{name}'
-    jobs:
-    - '{name}-gp'
+# - project:
+#     name: kube-hystrix
+#     repository: amitkshirsagar13
+#     branch: master
+#     jenkins-file: Jenkinsfile
+#     views:
+#         - '{name}'
+#     jobs:
+#     - '{name}-gp'
 
-- project:
-    name: spring-lms
-    repository: amitkshirsagar13
-    branch: master
-    jenkins-file: Jenkinsfile
-    views:
-        - '{name}'
-    jobs:
-    - '{name}-gp'
+# - project:
+#     name: spring-lms
+#     repository: amitkshirsagar13
+#     branch: master
+#     jenkins-file: Jenkinsfile
+#     views:
+#         - '{name}'
+#     jobs:
+#     - '{name}-gp'
 
