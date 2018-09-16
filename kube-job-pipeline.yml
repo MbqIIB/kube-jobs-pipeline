@@ -7,13 +7,13 @@
 
 - project:
     name: kube-eureka
-    # repository: amitkshirsagar13
-    # branch: master
-    # jenkins-file: Jenkinsfile
+      repository: amitkshirsagar13
+      branch: master
+      jenkins-file: Jenkinsfile
     views:
-        - '{name}'
+      - '{name}'
     jobs:
-    - '{name}-gp'
+      - '{name}-gp'
 
 # - project:
 #     name: kube-server
