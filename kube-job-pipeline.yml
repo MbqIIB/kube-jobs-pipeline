@@ -1,0 +1,42 @@
+- defaults:
+    name: global
+    repository: amitkshirsagar13
+    branch: master
+    jenkins-file: Jenkinsfile
+
+
+- project:
+    name: kube-eureka
+    views:
+        - '{name}'
+    jobs:
+    - '{name}-gp'
+
+- project:
+    name: kube-server
+    views:
+        - '{name}'
+    jobs:
+    - '{name}-gp'
+
+- project:
+    name: kube-front
+    views:
+        - '{name}'
+    jobs:
+    - '{name}-gp'
+
+- project:
+    name: kube-hystrix
+    views:
+        - '{name}'
+    jobs:
+    - '{name}-gp'
+
+- project:
+    name: spring-lms
+    views:
+        - '{name}'
+    jobs:
+    - '{name}-gp'
+
