@@ -34,7 +34,7 @@
     branch: master
     jenkins-file: Jenkinsfile
     views:
-     - '{name}'
+    - '{name}'
     jobs:
     - '{name}-gp'
 
