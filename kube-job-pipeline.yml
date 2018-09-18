@@ -49,12 +49,14 @@
     - '{name}-gp'
 
 
-# - project:
-#     name: kube-jobs-pipeline
-#     repository: amitkshirsagar13
-#     branch: master
-#     jenkins-file: Jenkinsfile
-#     views:
-#     - '{name}'
-#     jobs:
-#     - '{name}-dummy'
+- project:
+    name: kube-jobs-pipeline
+    repository: amitkshirsagar13
+    branch: master
+    jenkins-file: Jenkinsfile
+    views:
+    - '{name}'
+    jobs:
+    - '{name}-dummy'
+
+    
