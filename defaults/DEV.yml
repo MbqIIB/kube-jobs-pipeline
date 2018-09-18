@@ -1,2 +1,3 @@
 - defaults:
+    name: global
     mail-to: amitkshirsagar13@gmail.com
