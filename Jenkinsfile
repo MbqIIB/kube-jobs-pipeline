@@ -11,7 +11,6 @@ podTemplate(label: label, containers: [
   envVar(key: 'BUILD_NUMBER', value: env.BUILD_NUMBER)
 ],
 volumes: [
-    //configMapVolume(mountPath: '/etc/jenkins_jobs/jenkins_jobs.ini', subPath: 'jenkins_jobs.ini', configMapName: 'jenkins-ini'),
     configMapVolume(mountPath: '/etc/jenkins_jobs', configMapName: 'jenkins-ini'),
 	hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock'),
 	persistentVolumeClaim(mountPath: '/root/.m2/repository', claimName: 'jenkins-persistent-repository-storage-claim', readOnly: false)
